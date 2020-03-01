@@ -1,0 +1,155 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background-color: #FFFFFF;
+	border-left: solid 1px #0A171D;
+	border-right: solid 1px #0A171D;
+	border-top: solid 1px #0A171D;
+	line-height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 960px;
+	
+	
+}
+header {
+	background-image: url(../images/fitnessLogo.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 100px;
+	background-color: #FFFFFF;
+	width: 960px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin: 0px 0px 30px 0px
+}
+header h1 {
+	color: #006E96;
+	text-align: right;
+	font-size: 28px;
+	float: right;
+	padding: 25px 30px
+}
+
+ul {
+	background-color: #0A171D;
+	margin: auto;
+	padding: 0px;
+	list-style-type: none;
+	overflow: hidden;
+	
+	
+}
+li {
+	float: left;
+	border-right: 2px solid #BBB;
+	
+}
+li:last-child {
+	border-right: none;
+}
+li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	padding: 18px 73px;
+	text-align: center;
+}
+li a:hover:not(.active) {
+	background-color: #006E96;
+	
+}
+.active {
+	background-color: #006E96;
+}
+
+#main-content {
+	width: 800px;
+	float: left;
+	margin-bottom: 5px;
+	margin-left: 75px;
+	margin-right: 75px;
+	padding-bottom: 10px;
+	
+}
+#main-content h2 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	text-transform: none;
+	font-size: 26px;
+	font-family: "Times New Roman", Times, serif;
+	color: #142d39;
+	font-weight: 500;
+}
+#main-content h3 {
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: #0A171D;
+	font-style: italic;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+}
+#main-content p {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	
+}
+#nutrition-image {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 800px;
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 30px;
+}
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+footer {
+	width: 960px;
+	height: 25px;
+	background-color: #0A171D;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-align: center;
+	clear: both;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding-bottom: 40px;
+	padding-top: 5px;
+	
+}
+footer p {
+	color: #FFFFFF;
+}
+footer a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+footer a:hover:not(.active) {
+	color: #FFFFFF;
+}
